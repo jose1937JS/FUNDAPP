@@ -1,0 +1,66 @@
+Arguments: 
+  /home/josepher/.nvm/versions/node/v10.16.3/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/josepher/.nvm/versions/node/v10.16.3/bin:/home/josepher/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/geckodriver
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.2.1.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:162:17)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "~36.0.0",
+      "@expo/vector-icons": "~10.0.0",
+      "@react-navigation/web": "~1.0.0-alpha.9",
+      "expo": "~36.0.0",
+      "expo-asset": "~8.0.0",
+      "expo-constants": "~8.0.0",
+      "expo-font": "~8.0.0",
+      "expo-web-browser": "~8.0.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.5.0",
+      "react-native-reanimated": "~1.4.0",
+      "react-native-screens": "2.0.0-alpha.12",
+      "react-native-web": "~0.11.7",
+      "react-navigation": "~4.0.10",
+      "react-navigation-stack": "~1.10.3",
+      "react-navigation-tabs": "~2.6.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.0.0",
+      "babel-preset-expo": "~8.0.0",
+      "jest-expo": "~36.0.1"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
