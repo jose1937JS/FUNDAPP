@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, StyleSheet, View, Image, SafeAreaView } from 'react-native';
+import { ScrollView, StyleSheet, View, Image } from 'react-native';
 
 import { Container, Text, Card, CardItem, Header, Content, Body, Spinner } from 'native-base';
 
@@ -11,7 +11,7 @@ export default class LinksScreen extends Component {
 		this.state = {
 			loading: false,
 			data: [],
-			host: 'http://192.168.0.99:8000'
+			host: 'http://192.168.43.144:8000'
 		}
 	}
 
